@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/SY.js"></script>
+    <link rel="stylesheet" href="../css/SY.css" />
+  </head>
+  <body>
+    <!-- 头部右边导航栏 -->
+    <div class="right-header">
+      <div class="right-header-1">
+        <div>
+          <li class="right-header-1-top">我的</li>
+          <li class="right-header-1-content">
+            你好请登录请！<a href="DL.html">登录</a>|<a href="ZC.html">注册</a>
+          </li>
+          <div class="right-header-1-footer">
+            <span>我的账单</span>
+            <span>我的唯品币</span>
+          </div>
+          <a href="#">会员俱乐部</a>
+          
+        </div>
+        <span class="glyphicon glyphicon-th"></span>
+        <p>账号</p>
+      </div>
+      <div class="right-header-2">
+        <p>购 物 袋</p>
+        <span>0</span>
+      </div>
+      <div class="right-header-3">
+        <li>
+          优惠券
+          <p>我的优惠券 <span class="glyphicon glyphicon-th"></span></p>
+        </li>
+        <li>
+          品藏
+          <p>品牌收藏</p>
+        </li>
+        <li>
+          商藏
+          <p>商品收藏</p>
+        </li>
+        <li>
+          我
+          <span></span>
+          <p>我的足迹</p>
+        </li>
+      </div>
+    </div>
+    <!-- 楼梯导航栏 -->
+    <ul class="louti">
+      <h2>会员清场</h2>
+      <li>时尚女装</li>
+      <li>美妆个护</li>
+      <li>品牌清场</li>
+      <li>品牌清场</li>
+      <li>品牌清场</li>
+      <li>品牌清场</li>
+      <li>品牌清场</li>
+      <li>品牌清场</li>
+    </ul>
+    <!-- 头部导航栏 -->
+    <div class="banxin">
+      <div class="top">
+        <ul class="left">
+          <li>
+            <a href=""
+              >城市　<span class="glyphicon glyphicon-menu-down"></span
+            ></a>
+          </li>
+        </ul>
+        <ul class="right">
+          <li id="deng">
+            <a href="DL.html">请登录</a>
+            <div>
+              <p>你好请登录</p>
+              <ul>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+              </ul>
+            </div>
+          </li>
+
+          <li><a href="ZC.html">注册</a></li>
+          <li id="qiandao">
+            <a href="">签到有礼</a>
+            <div>
+              <h3>请前往<a href="#">唯品会app</a>签到吧</h3>
+              <p>
+                即日起，签到网页端入口将下线，请前往“唯品会APP首页-签到领券”继续参与签到活动。
+              </p>
+              <img
+                src="//shop.vipstatic.com/img/common/header_signin-hash-670694db.png"
+                alt=""
+              />
+              <div>
+                <img
+                  src="http://b.appsimg.com/upload/momin/2020/08/26/78/1598435695911.png"
+                  alt=""
+                />
+                <p>也可以扫描签到哦</p>
+              </div>
+            </div>
+          </li>
+          <li><a href="">我的订单</a></li>
+          <li id="temai">
+            　<a href="">我的特卖</a>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <ul>
+              <li><a href="#">热门商品</a></li>
+              <li><a href="#">热门商品</a></li>
+              <li><a href="#">热门商品</a></li>
+              <li><a href="#">热门商品</a></li>
+            </ul>
+          </li>
+          <li id="huiyuan">
+            　<a href="">会员俱乐部</a>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <ul>
+              <li>高级会员俱乐部</li>
+              <li>中级会员俱乐部</li>
+            </ul>
+          </li>
+          <li id="kehu">
+            　<a href="">客户服务</a>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <ul>
+              <li>联系客户</li>
+              <li>帮助中心</li>
+              <li>客服中心</li>
+              <li>点击更多</li>
+            </ul>
+          </li>
+          <li id="shouji">
+            <a href="">
+              <span class="glyphicon glyphicon-phone"></span> 手机款</a
+            >
+            <div>
+              <img
+                src="//b.appsimg.com/2016/06/17/863/1466134037230.jpg"
+                alt=""
+              />
+              <a href="#">随时抢，随时到</a>
+            </div>
+          </li>
+          <li id="gengduo">
+            <a href=""
+              >更多　<span class="glyphicon glyphicon-chevron-down"></span
+            ></a>
+            <ul>
+              <li>
+                <h2>合作专区</h2>
+                <p>合作的伙伴</p>
+              </li>
+              <li>
+                <h2>关于我们</h2>
+                <p>Sell on vip 品牌招商 官方博客</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 头部搜索栏 -->
+    <div class="topinput">
+      <a href="" id="a"
+        ><img
+          src="//b.appsimg.com/upload/momin/2020/11/03/56/1604390524808.gif"
+          alt=""
+      /></a>
+      <a href="#" id="b"
+        ><img
+          src="//b.appsimg.com/upload/momin/2020/04/16/150/1587017895494.jpg"
+          alt=""
+      /></a>
+      <div class="topinput-input">
+        <input type="text" />
+        <button>搜索</button>
+        <div class="topinput-p">
+          <p>超值爆款 真便宜</p>
+          　 　
+          <p>　|　</p>
+          <p>大牌折买 一折起</p>
+          <p>　|　</p>
+          <p>大牌三折封顶</p>
+        </div>
+      </div>
+      <div class="list">
+        <button>购物袋<span class="badge">14</span></button>
+        <div>好像还未登录！ <a href="DL.html">马上登录</a> 查看购物袋吧！</div>
+      </div>
+    </div>
+    <!-- 下滑搜索栏 -->
+    <div class="there">
+      <div class="one">
+        <p>商品分类</p>
+        <ul>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+        </ul>
+        <div class="one-div">
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+        </div>
+      </div>
+      <ul>
+        <li><a href="#">11特卖</a></li>
+        <li><a href="#">最后疯抢</a></li>
+        <li><a href="#">唯品快买</a></li>
+        <li><a href="#">唯品奥莱</a></li>
+        <li><a href="#">品牌清场</a></li>
+        <li><a href="#">女装</a></li>
+        <li><a href="#">母婴</a></li>
+        <li><a href="#">家电</a></li>
+        <li><a href="#">国际</a></li>
+        <li><a href="#">美妆</a></li>
+        <li id="duo">
+          <a href="#">更多 </a>
+          <ul>
+            <li>男装</li>
+            <li>扶贫</li>
+            <li>生活</li>
+            <li>运动</li>
+            <li>家居</li>
+            <li>配饰</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 大的背景图 -->
+    <div class="big-img"></div>
+    <!-- 下面的小图 -->
+    <div class="banxin2">
+      <div class="big-img-div">
+        <!-- 大的图片 -->
+        <div class="div2">
+          <img src="" alt="" />
+        </div>
+        <!-- 四个小图片 -->
+        <div class="big-img-si-div">
+          <div class="div1"><img src="" alt="" /></div>
+          <div class="div1"><img src="" alt="" /></div>
+          <div class="div1"><img src="" alt="" /></div>
+          <div class="div1"><img src="" alt="" /></div>
+        </div>
+      </div>
+      <div class="big-img-log">
+        <h2>11.11特卖狂欢　．品类狂欢</h2>
+        <div class="big-img-log-top">
+          <img src="../img/优酷.png" alt="" />
+          <img src="../img/优酷.png" alt="" />
+        </div>
+        <div class="big-img-log-center">
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+          <img src="../img/flower.gif" alt="" />
+        </div>
+        <div class="big-img-log-button">
+          <h2>11.11特卖狂欢　．品类狂欢</h2>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+          <li>
+            <img src="../img/熊.png" alt="" />
+            <p>男式皮衣/皮革</p>
+          </li>
+        </div>
+
+        <!-- 需要接口填入响应的数据 -->
+        <ul class="loutu">
+          <li class="shishang">
+            <h2>女装个护</h2>
+            <ul class="shishang-one">
+              <li>精选品牌</li>
+              <li>专柜大牌</li>
+              <li>潮流时尚</li>
+              <li>国际品牌</li>
+            </ul>
+            <ul class="shishang-two">
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+            </ul>
+          </li>
+          <li class="shishang">
+            <h2>时尚女装</h2>
+            <ul class="shishang-one">
+              <li>精选品牌</li>
+              <li>专柜大牌</li>
+              <li>潮流时尚</li>
+              <li>国际品牌</li>
+            </ul>
+            <ul class="shishang-two">
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+              <li>
+                <img src="/img/大奖小河.png" alt="" />
+                <img src="/img/汪汪队.png" alt="" />
+                <p>貂皮大衣-xxx</p>
+                <h2>一折起</h2>
+                <input type="button" value="立即抢购" />
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
