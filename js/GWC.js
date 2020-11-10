@@ -1,0 +1,1 @@
+"use strict";$(function(){var o=location.search.split("=")[1];console.log(o),$.get("http://jx.xuzhixiang.top/ap/api/add-product.php?uid=42266&pid=".concat(pid,"&pnum=1"),function(o){console.log(o)}).then(function(o){console.log(o)})});
