@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/XQ.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/XQ.css" />
+  </head>
+
+  <body>
+    <!-- 头部右边导航栏 -->
+    <div class="right-header">
+      <div class="right-header-1">
+        <div>
+          <li class="right-header-1-top">我的</li>
+          <li class="right-header-1-content">
+            你好请登录请！<a href="DL.html">登录</a>|<a href="ZC.html">注册</a>
+          </li>
+          <div class="right-header-1-footer">
+            <span>我的账单</span>
+            <span>我的唯品币</span>
+          </div>
+          <a href="#">会员俱乐部</a>
+        </div>
+        <span class="glyphicon glyphicon-heart"></span>
+        <p>账号</p>
+      </div>
+      <div class="right-header-2">
+        <p>购 物 袋</p>
+        <span>0</span>
+      </div>
+      <div class="right-header-3">
+        <li>
+          <span class="glyphicon glyphicon-list"></span>
+          <p>我的优惠券</p>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-heart"></span>
+          <p>品牌收藏</p>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-star"></span>
+          <p>商品收藏</p>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-user"></span>
+          <span></span>
+          <p>我的足迹</p>
+        </li>
+      </div>
+    </div>
+    <!-- 头部导航栏 -->
+    <div class="banxin">
+      <div class="top">
+        <ul class="left">
+          <li>
+            <a href=""
+              >城市　<span class="glyphicon glyphicon-menu-down"></span
+            ></a>
+          </li>
+        </ul>
+        <ul class="right">
+          <li id="deng">
+            <a href="DL.html">请登录</a>
+            <div>
+              <p>你好请登录</p>
+              <ul>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+                <li>我的收藏</li>
+              </ul>
+            </div>
+          </li>
+
+          <li><a href="ZC.html">注册</a></li>
+          <li id="qiandao">
+            <a href="">签到有礼</a>
+            <div>
+              <h3>请前往<a href="#">唯品会app</a>签到吧</h3>
+              <p>
+                即日起，签到网页端入口将下线，请前往“唯品会APP首页-签到领券”继续参与签到活动。
+              </p>
+              <img
+                src="//shop.vipstatic.com/img/common/header_signin-hash-670694db.png"
+                alt=""
+              />
+              <div>
+                <img
+                  src="http://b.appsimg.com/upload/momin/2020/08/26/78/1598435695911.png"
+                  alt=""
+                />
+                <p>也可以扫描签到哦</p>
+              </div>
+            </div>
+          </li>
+          <li><a href="">我的订单</a></li>
+          <li id="temai">
+            　<a href="">我的特卖</a>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <ul>
+              <li><a href="#">热门商品</a></li>
+              <li><a href="#">热门商品</a></li>
+              <li><a href="#">热门商品</a></li>
+              <li><a href="#">热门商品</a></li>
+            </ul>
+          </li>
+          <li id="huiyuan">
+            　<a href="">会员俱乐部</a>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <ul>
+              <li>高级会员俱乐部</li>
+              <li>中级会员俱乐部</li>
+            </ul>
+          </li>
+          <li id="kehu">
+            　<a href="">客户服务</a>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+            <ul>
+              <li>联系客户</li>
+              <li>帮助中心</li>
+              <li>客服中心</li>
+              <li>点击更多</li>
+            </ul>
+          </li>
+          <li id="shouji">
+            <a href="">
+              <span class="glyphicon glyphicon-phone"></span> 手机款</a
+            >
+            <div>
+              <img
+                src="//b.appsimg.com/2016/06/17/863/1466134037230.jpg"
+                alt=""
+              />
+              <a href="#">随时抢，随时到</a>
+            </div>
+          </li>
+          <li id="gengduo">
+            <a href=""
+              >更多　<span class="glyphicon glyphicon-chevron-down"></span
+            ></a>
+            <ul>
+              <li>
+                <h2>合作专区</h2>
+                <p>合作的伙伴</p>
+              </li>
+              <li>
+                <h2>关于我们</h2>
+                <p>Sell on vip 品牌招商 官方博客</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 头部搜索栏 -->
+    <div class="topinput">
+      <a href="" id="a"
+        ><img
+          src="//b.appsimg.com/upload/momin/2020/11/03/56/1604390524808.gif"
+          alt=""
+      /></a>
+      <a href="#" id="b"
+        ><img
+          src="//b.appsimg.com/upload/momin/2020/04/16/150/1587017895494.jpg"
+          alt=""
+      /></a>
+      <div class="topinput-input">
+        <input type="text" />
+        <button>搜索</button>
+        <div class="topinput-p">
+          <p>超值爆款 真便宜</p>
+          　 　
+          <p>　|　</p>
+          <p>大牌折买 一折起</p>
+          <p>　|　</p>
+          <p>大牌三折封顶</p>
+        </div>
+      </div>
+      <div class="list">
+        <button>购物袋<span class="badge">14</span></button>
+        <div>好像还未登录！ <a href="DL.html">马上登录</a> 查看购物袋吧！</div>
+      </div>
+    </div>
+    <!-- 下滑搜索栏 -->
+    <div class="there">
+      <div class="one">
+        <p>商品分类</p>
+        <ul>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+          <li>商品/分类/日常用品</li>
+        </ul>
+        <div class="one-div">
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+          <li>
+            好货分享
+            <p>商品</p>
+            <a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a><a href="">商品</a
+            ><a href="">商品</a><a href="">商品</a>
+          </li>
+        </div>
+      </div>
+      <ul>
+        <li><a href="#">11特卖</a></li>
+        <li><a href="#">最后疯抢</a></li>
+        <li><a href="#">唯品快买</a></li>
+        <li><a href="#">唯品奥莱</a></li>
+        <li><a href="#">品牌清场</a></li>
+        <li><a href="#">女装</a></li>
+        <li><a href="#">母婴</a></li>
+        <li><a href="#">家电</a></li>
+        <li><a href="#">国际</a></li>
+        <li><a href="#">美妆</a></li>
+        <li id="duo">
+          <a href="#">更多 </a>
+          <ul>
+            <li>男装</li>
+            <li>扶贫</li>
+            <li>生活</li>
+            <li>运动</li>
+            <li>家居</li>
+            <li>配饰</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 放大镜 -->
+    <div class="zhan">
+      <div class="zhan-fa-1">
+        <div class="small"></div>
+        <img src="../img/熊.png" alt="" />
+      </div>
+      <div class="zhan-fa-2">
+        <img src="../img/熊.png" alt="" />
+      </div>
+      <div class="right-wen">
+        <h2>商品的名字</h2>
+        <img src="../img/bg1.jpg" alt="" />
+        <p>单价:<span>0</span></p>
+        <div class="input">
+          <input class="minus" type="button" value="-" />
+          <input class="tet" type="text" value="0" />
+          <input class="plus" type="button" value="+" />
+        </div>
+        <button id="btn">点击添加购物车</button>
+      </div>
+    </div>
+    <!-- 下面的导航栏 -->
+    <div class="from-top">
+      <h2>商业参数</h2>
+      <p>尺码对照表</p>
+      <ul class="oul">
+        <li>尺码</li>
+        <li>号型</li>
+        <li>肩宽（cm）</li>
+        <li>胸围</li>
+        <li>衣长</li>
+        <li>袖长</li>
+        <li>领位</li>
+        <li>腰围</li>
+      </ul>
+      <ul>
+        <li>s</li>
+        <li>155/80A</li>
+        <li>36.5</li>
+        <li>92</li>
+        <li>54</li>
+        <li>57.5</li>
+        <li>51.5</li>
+        <li>97</li>
+      </ul>
+      <ul>
+        <li>s</li>
+        <li>155/80A</li>
+        <li>36.5</li>
+        <li>92</li>
+        <li>54</li>
+        <li>57.5</li>
+        <li>51.5</li>
+        <li>97</li>
+      </ul>
+      <ul>
+        <li>s</li>
+        <li>155/80A</li>
+        <li>36.5</li>
+        <li>92</li>
+        <li>54</li>
+        <li>57.5</li>
+        <li>51.5</li>
+        <li>97</li>
+      </ul>
+    </div>
+    <div class="zhanshi">
+      <h2>商品展示</h2>
+      <img
+        src="https://a.vpimg4.com/upload/merchandise/pdcpos/1100001043/2020/0716/31/211c2e20-3fe9-4415-a2ef-3a959bd03416.jpg"
+        alt=""
+      />
+    </div>
+    <div class="zhanshi">
+      <h2>商品展示</h2>
+      <img
+        src="https://a.vpimg2.com/upload/merchandise/pdcpos/1100001043/2020/0716/157/df68646a-3682-44cc-88cb-701dc6d731ce.jpg"
+        alt=""
+      />
+    </div>
+    <div class="zhanshi">
+      <h2>商品展示</h2>
+      <img
+        src="https://a.vpimg4.com/upload/merchandise/pdcpos/1100001043/2020/0716/67/e6f1bc00-14d9-4405-87bb-ffdc39a00891.jpg"
+        alt=""
+      />
+    </div>
+
+    <!-- 大底部 -->
+    <div class="footer-div">
+      <ul>
+        <li>
+          <span class="glyphicon glyphicon-usd"></span>
+          <p>全球领先</p>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-usd"></span>
+          <p>正品资源</p>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-usd"></span>
+          <p>全球领先</p>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-usd"></span>
+          <p>商业机构</p>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-usd"></span>
+          <p>商业机构</p>
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-usd"></span>
+          <p>商业机构</p>
+        </li>
+      </ul>
+      <div class="list-footer">
+        <ul>
+          <li>服务包张</li>
+          <li><a href="#">赠品包张</a></li>
+          <li><a href="#">赠品包张</a></li>
+          <li><a href="#">赠品包张</a></li>
+          <li><a href="#">赠品包张</a></li>
+        </ul>
+        <ul>
+          <li>购物滞纳</li>
+          <li><a href="#"> 导购延时</a></li>
+          <li><a href="#"> 导购延时</a></li>
+          <li><a href="#"> 导购延时</a></li>
+          <li><a href="#"> 导购延时</a></li>
+          <li><a href="#"> 导购延时</a></li>
+          <li><a href="#"> 导购延时</a></li>
+        </ul>
+        <ul>
+          <li>之父方式</li>
+          <li><a href="#">23家主流方式</a></li>
+          <li><a href="#">23家主流方式</a></li>
+          <li><a href="#">23家主流方式</a></li>
+        </ul>
+        <ul>
+          <li>配送方式</li>
+          <li><a href="#">配送范围季云飞</a></li>
+          <li><a href="#">验证语气拿货</a></li>
+        </ul>
+        <ul>
+          <li>售后服务</li>
+          <li><a href="#">23家主流方式</a></li>
+          <li><a href="#">23家主流方式</a></li>
+          <li><a href="#">23家主流方式</a></li>
+        </ul>
+        <ul>
+          <li>唯品会app</li>
+          <li>
+            <img
+              src="http://b.appsimg.com/2016/06/17/863/1466134037230.jpg"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="list-footer-div">
+        <p>
+          <a href="#">关于我们</a>
+          <a href="#">|</a>
+          <a href="#">媒体报道</a>
+          <a href="#">|</a>
+          <a href="#">品牌招商</a>
+          <a href="#">|</a>
+          <a href="#">隐私条款</a>
+          <a href="#">|</a>
+          <a href="#">唯品成品</a>
+          <a href="#">|</a>
+          <a href="#">唯品卡</a>
+          <a href="#">|</a>
+          <a href="#">廉政举报</a>
+        </p>
+      </div>
+      <div class="footer-div-p-a">
+        <p>
+          Copyright © 2008-2020 vip.com，All Rights Reserved
+          使用本网站即表示接受 唯品会用户协议。版权所有
+          广州唯品会电子商务有限公司
+          <a href="#">粤公网安备 44010302111111号 粤ICP备08114786号</a>
+          <a href="#">增值业务经营许可证：粤B2-20170777</a>
+          网络文化经营许可证：粤网文〔2018〕5030-1743号 经营主体证照
+          风险监测信息 互联网药品信息服务资格证书：（粤）-经营性-2018-0271
+          网络食品交易第三方平台备案凭证：粤B2-20170777
+          医疗器械网络交易服务第三方平台备案凭证：（粤）网械平台备字[2019]第00001号
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
